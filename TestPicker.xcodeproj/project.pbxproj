@@ -19,6 +19,8 @@
 		CF81C996195A24F700FA5D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81C97E195A24F600FA5D14 /* UIKit.framework */; };
 		CF81C99E195A24F700FA5D14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF81C99C195A24F700FA5D14 /* InfoPlist.strings */; };
 		CF81C9A0195A24F700FA5D14 /* TestPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81C99F195A24F700FA5D14 /* TestPickerTests.m */; };
+		CF81C9AC195A28D400FA5D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81C9AA195A28D400FA5D14 /* ViewController.m */; };
+		CF81C9AD195A28D400FA5D14 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF81C9AB195A28D400FA5D14 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		CF81C99B195A24F700FA5D14 /* TestPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPickerTests-Info.plist"; sourceTree = "<group>"; };
 		CF81C99D195A24F700FA5D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF81C99F195A24F700FA5D14 /* TestPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPickerTests.m; sourceTree = "<group>"; };
+		CF81C9A9195A28D400FA5D14 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF81C9AA195A28D400FA5D14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF81C9AB195A28D400FA5D14 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				CF81C98A195A24F600FA5D14 /* AppDelegate.m */,
 				CF81C98C195A24F600FA5D14 /* Images.xcassets */,
 				CF81C981195A24F600FA5D14 /* Supporting Files */,
+				CF81C9A9195A28D400FA5D14 /* ViewController.h */,
+				CF81C9AA195A28D400FA5D14 /* ViewController.m */,
+				CF81C9AB195A28D400FA5D14 /* ViewController.xib */,
 			);
 			path = TestPicker;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF81C985195A24F600FA5D14 /* InfoPlist.strings in Resources */,
+				CF81C9AD195A28D400FA5D14 /* ViewController.xib in Resources */,
 				CF81C98D195A24F600FA5D14 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF81C9AC195A28D400FA5D14 /* ViewController.m in Sources */,
 				CF81C98B195A24F600FA5D14 /* AppDelegate.m in Sources */,
 				CF81C987195A24F600FA5D14 /* main.m in Sources */,
 			);
